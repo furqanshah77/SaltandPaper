@@ -1,0 +1,137 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+.nav_list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: white;
+    padding-top: 22px;
+}
+
+.nav {
+    background-color: black;
+}
+
+.nav_btn {
+    display: flex;
+    /* gap: 5px; */
+}
+
+/* .btn {
+    width: 131px;
+    border-radius: 35px;
+    height: 54;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+
+.nav_btn_2{
+    background-color: #ed1c24;
+} */
+
+.hero {
+    height: 100vh;
+    background-color: black;
+    width: 100%;
+}
+
+.hero_1 {
+    text-align: center;
+    color: white;
+}
+
+.hero_main {
+    padding: 70px 105px 160px 150px;
+    font-size: 40px;
+}
+
+.f{
+    font-family: 'Playball', cursive;
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+.hero_p{
+    font-size: 16px;
+}
+
+.hero_img{
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+}
+
+.hero_btn{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 0px 50px;
+}
+
+.btn button{
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 70px;
+    margin: 10px;
+}
+
+.card_main{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+}
+
+.card_main h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: serif;
+}
+
+.card_main img{
+    width: 250px;
+}
+
+/* Footer */
+
+footer{  
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.934);
+    align-items: baseline;
+    color: white;;
+    margin-bottom: 0;
+
+}
+
+.f_ul ul{
+    list-style-type: none;
+    color: white;
+    line-height: 50px;
+    
+}
+
+.f_ul h6{
+ padding-left: 25px;
+}
